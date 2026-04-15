@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Add Course</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <header>
+            <h1>Personal Course Organizer</h1>
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="courses.html">My Courses</a>
+                <a href="add.html">Add Course</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2>Add a New Course</h2>
+
+                <form>
+                    <label for="courseName">Course Name:</label>
+                    <input placeholder="Enter course name" autofocus="autofocus" type="text" id="courseName" required>
+
+                    <label for="instructor">Instructor:</label>
+                    <input placeholder="Enter instructor name" type="text" id="instructor" required>
+
+                    <label for="creditHours">Credit Hours:</label>
+                    <input placeholder="Enter credit hours" type="number" id="creditHours" required>
+
+                    <label for="notes">Notes:</label>
+                    <textarea placeholder="Enter notes" id="notes"></textarea>
+
+                    <button type="submit">Add Course</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Personal Course Organizer | All Rights Reserved</p>
+        </footer>
+
+    </body>
+</html>
